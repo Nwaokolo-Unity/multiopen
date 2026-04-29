@@ -16,11 +16,11 @@
   },
   "dependencies": {
     "@prisma/client": "^5.10.0",
-    "@upstash/redis": "^1.28.0",
     "@upstash/ratelimit": "^1.0.1",
+    "@upstash/redis": "^1.28.0",
     "bcryptjs": "^2.4.3",
     "nanoid": "^3.3.7",
-    "next": "14.2.3",
+    "next": "^14.2.35",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "resend": "^3.2.0",
@@ -37,8 +37,8 @@
     "postcss": "^8.4.38",
     "prisma": "^5.10.0",
     "tailwindcss": "^3.4.3",
-    "typescript": "^5.4.5",
-    "ts-node": "^10.9.2"
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
   },
   "prisma": {
     "seed": "ts-node --compiler-options {\"module\":\"CommonJS\"} prisma/seed.ts"
